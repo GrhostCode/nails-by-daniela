@@ -1,0 +1,10 @@
+// Nails by Daniela: sitio estático en Cloudflare Workers (solo archivos, sin código de servidor).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nails-by-daniela",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
