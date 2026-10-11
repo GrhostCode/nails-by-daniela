@@ -13,16 +13,16 @@
 
   // min/max en dólares. Si min === max sale un solo precio.
   var SERVICES = [
-    { es: "Sencillas", en: "Simple", items: [
-      { id: "solido", es: "Color sólido", en: "Solid color", des: "Un solo color en todas las uñas.", den: "One color on every nail.", min: 20, max: 20 },
-      { id: "french", es: "French clásico", en: "Classic French", des: "La punta blanca de siempre.", den: "The classic white tip.", min: 20, max: 20 }
+    { es: "Uñas naturales", en: "Natural nails", items: [
+      { id: "solido", es: "Color sólido", en: "Solid color", des: "Un solo color en todas las uñas.", den: "One color on every nail.", min: 25, max: 25 },
+      { id: "complejo", es: "Diseño complejo", en: "Complex design", des: "Flores, rayas, puntos, 3D o la idea que traigas.", den: "Flowers, stripes, dots, 3D or whatever you have in mind.", min: 30, max: 30 }
     ]},
-    { es: "Peru nails", en: "Peru nails", items: [
-      { id: "peru", es: "Peru nails", en: "Peru nails", des: "French de colores o con puntos, como las de verano.", den: "Colorful or polka-dot French tips, like the summer sets.", min: 35, max: 35 }
+    { es: "Con gel tip", en: "With gel tips", items: [
+      { id: "gel", es: "Gel tip, sin color", en: "Gel tips, no color", des: "Extensiones de gel, sin color.", den: "Gel extensions, no color.", min: 45, max: 45 },
+      { id: "gelcomplejo", es: "Diseño complejo + gel tip", en: "Complex design + gel tips", des: "Extensiones de gel con diseño complejo.", den: "Gel extensions with a complex design.", min: 55, max: 55 }
     ]},
-    { es: "Con diseño", en: "With design", items: [
-      { id: "mano", es: "Diseño a mano", en: "Hand-painted design", des: "Flores, rayas, puntos o la idea que traigas.", den: "Flowers, stripes, dots or whatever you have in mind.", min: 40, max: 60 },
-      { id: "3d", es: "3D y detalles", en: "3D and details", des: "Flores en relieve, perlas y piedritas.", den: "Raised flowers, pearls and studs.", min: 40, max: 60 }
+    { es: "Pedicura", en: "Pedicure", items: [
+      { id: "pedi", es: "Pedicura", en: "Pedicure", des: "Para los pies.", den: "For your feet.", min: 25, max: 25 }
     ]}
   ];
 

@@ -22,7 +22,7 @@ wrangler.jsonc               Configuración de Cloudflare
 
 ## Cambiar datos
 
-- **Servicios y precios:** en `SERVICES`, arriba de `public/assets/site.js`. Cada servicio tiene el nombre (`es`, `en`), la descripción (`des`, `den`) y el precio (`min`, `max`; si son iguales sale un solo precio). El cotizador, el formulario de contacto y la lista para imprimir salen de ahí. Los precios del inicio (`$20`, `$35`, `$40–60`) están escritos en `public/index.html`.
+- **Servicios y precios:** en `SERVICES`, arriba de `public/assets/site.js`. Cada servicio tiene el nombre (`es`, `en`), la descripción (`des`, `den`) y el precio (`min`, `max`; si son iguales sale un solo precio). El cotizador, el formulario de contacto y la lista para imprimir salen de ahí. Los precios del inicio, de las preguntas frecuentes y de las descripciones de Google están escritos a mano en `public/index.html`, `public/contacto/index.html` y `public/servicios/index.html`: si cambias un precio, búscalo ahí también.
 - **Teléfono:** está guardado al revés y en base64 para que los bots no lo recojan. Para cambiarlo: `printf %s "1787XXXXXXX" | rev | base64` y pon el resultado en `PHONE`.
 - **Textos:** el español está en el HTML y el inglés en el atributo `data-en` del mismo elemento. Si cambias uno, cambia el otro.
 - **Fotos:** en `public/img/galeria/` hay dos versiones de cada foto: la grande (`nombre.jpg`) y la pequeña para la cuadrícula (`nombre-m.jpg`, 640 px). Para añadir una, copia un bloque `<figure class="shot">` en `public/galeria/index.html`.
